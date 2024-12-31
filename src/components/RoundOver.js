@@ -83,7 +83,6 @@ const CardsContainer = styled.div`
   margin-bottom: 20px;
 
   @media (max-width: 768px) {
-    flex-direction: column;
     align-items: center;
     gap: 10px;
   }
@@ -101,13 +100,13 @@ const QuestionCard = styled.div`
   font-weight: bold;
   line-height: 1.5;
 
-  width: 12rem;
+  width: 12rem; /* Maintain width */
   height: 0;
-  padding-bottom: 16rem;
+  padding-bottom: 16rem; /* Maintain height ratio */
 
   @media (max-width: 768px) {
-    font-size: 0.9rem;
-    width: 10rem;
+    font-size: 0.9rem; /* Optional: Slightly reduce font size */
+    width: 10rem; /* Optional: Slightly reduce card size */
     padding-bottom: 14rem;
   }
 `;

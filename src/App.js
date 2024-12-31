@@ -10,7 +10,6 @@ const SuggestionText = styled.div`
   opacity: 0.5; /* Low opacity to make it non-intrusive */
   font-size: 0.8rem; /* Adjust font size for readability */
   color: #fff; /* Use a neutral color, can be changed */
-  z-index: 100; /* Ensure it's above other elements */
   pointer-events: none; /* Make it non-interactive */
   text-align: right;
 
@@ -30,7 +29,6 @@ const SignalText = styled.div`
   opacity: 0.5; /* Low opacity to make it non-intrusive */
   font-size: 0.8rem; /* Adjust font size for readability */
   color: #fff; /* Use a neutral color, can be changed */
-  z-index: 100; /* Ensure it's above other elements */
   pointer-events: none; /* Make it non-interactive */
   text-align: right;
 

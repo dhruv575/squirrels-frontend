@@ -42,13 +42,13 @@ const Instruction = styled.p`
 
 const CardGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 40px;
   width: 100%;
   max-width: 800px;
 
   @media (max-width: 768px) {
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 10px;
   }
 `;
@@ -149,7 +149,6 @@ const SelectedContainer = styled.div`
   margin-top: 20px;
 
   @media (max-width: 768px) {
-    flex-direction: column;
     gap: 15px;
     align-items: center;
   }
